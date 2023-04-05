@@ -27,7 +27,6 @@ public class StackTraceVisitor extends ClassVisitor {
     public MethodVisitor visitMethod(int access, String name, String descriptor, String signature, String[] exceptions) {
         MethodVisitor mv = super.visitMethod(access, name, descriptor, signature,exceptions);
         JMethod method = new JMethod(className,name,descriptor);
-        if (className.startsWith("nz/ac"))  System.out.println("check whether to instrument: " + method);
         final int idx = StackTraceAgent.TARGET_STACK.indexOf(method);
         if (idx>-1) {
             System.out.println("instrumenting: " + method);

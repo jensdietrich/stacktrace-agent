@@ -46,10 +46,6 @@ public class JMethod {
 
     @Override
     public String toString() {
-        return "JMethod{" +
-                "owner='" + owner + '\'' +
-                ", name='" + name + '\'' +
-                ", descriptor='" + descriptor + '\'' +
-                '}';
+        return "" + owner + "::" + name + descriptor ;
     }
 }

@@ -34,7 +34,7 @@ public class StackTraceAgent {
     }
 
     static void logExecution(int index) {
-        System.out.println("execution logged: " + index);
+        // System.out.println("execution logged: " + index);
         LOGGED_EXECUTIONS.add(index);
     }
 
@@ -61,8 +61,6 @@ public class StackTraceAgent {
                 }
             }
         });
-
-
 
         Runnable writeLoggedExecutions = () -> {
             String out = System.getProperty("stackagent.out");
