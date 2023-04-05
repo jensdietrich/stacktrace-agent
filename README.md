@@ -50,6 +50,6 @@ but not `pck.Foo::foo2(I)V`.
 Stacktrace to trigger DOS in *snakeyaml* .
 
 ```
-Driver::main([Ljava/lang/String;)Vorg.yaml.snakeyaml.Yaml::load(Ljava/io/Reader;)Ljava/lang/Object;,org.yaml.snakeyaml.Yaml::loadFromReader(Lorg/yaml/snakeyaml/reader/StreamReader;Ljava/lang/Class;)Ljava/lang/Object;,org.yaml.snakeyaml.constructor.BaseConstructor::getSingleData(Ljava/lang/Class;)Ljava/lang/Object;,org.yaml.snakeyaml.composer.Composer::getSingleNode()Lorg/yaml/snakeyaml/nodes/Node;,org.yaml.snakeyaml.composer.Composer::getNode()Lorg/yaml/snakeyaml/nodes/Node;,org.yaml.snakeyaml.composer.Composer::composeNode(Lorg/yaml/snakeyaml/nodes/Node;)Lorg/yaml/snakeyaml/nodes/Node;,org.yaml.snakeyaml.composer.Composer::composeSequenceNode(Ljava/lang/String;)Lorg/yaml/snakeyaml/nodes/Node;
+Driver::main([Ljava/lang/String;)V,org.yaml.snakeyaml.Yaml::load(Ljava/io/Reader;)Ljava/lang/Object;,org.yaml.snakeyaml.Yaml::loadFromReader(Lorg/yaml/snakeyaml/reader/StreamReader;Ljava/lang/Class;)Ljava/lang/Object;,org.yaml.snakeyaml.constructor.BaseConstructor::getSingleData(Ljava/lang/Class;)Ljava/lang/Object;,org.yaml.snakeyaml.composer.Composer::getSingleNode()Lorg/yaml/snakeyaml/nodes/Node;,org.yaml.snakeyaml.composer.Composer::getNode()Lorg/yaml/snakeyaml/nodes/Node;,org.yaml.snakeyaml.composer.Composer::composeNode(Lorg/yaml/snakeyaml/nodes/Node;)Lorg/yaml/snakeyaml/nodes/Node;,org.yaml.snakeyaml.composer.Composer::composeSequenceNode(Ljava/lang/String;)Lorg/yaml/snakeyaml/nodes/Node;
 
 ```
